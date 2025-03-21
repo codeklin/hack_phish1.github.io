@@ -61,11 +61,13 @@ input {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #c7a022;
+    color: #060b4a;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
