@@ -10,7 +10,7 @@
     <small>Gigsdev Cybersecurity Academy <br>This is for Education Purpose Only</small>
     <h1>Ethical Hacking and Pen Testing Training</h1>
     <h2>Hold the Forte</h2>
-    <form action="/login" method="post">
+    <form id="loginForm" action="/login" method="post" onsubmit="return handleLogin(event)">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
         <br>
@@ -19,5 +19,6 @@
         <br>
         <button type="submit">Login</button>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
